@@ -1,10 +1,16 @@
-import React from 'react';
+import React from 'react'
+import Header from './components/Header'
+import Photos from './pages/Photos'
+import Cart from './pages/Cart'
 
 
 function App() {
   return (
-  <h1>Hello world</h1>
-  );
+    <div>
+      <Header/>
+      <h1>Home Page</h1>
+    </div>
+  )
 }
 
-export default App;
+export default App
